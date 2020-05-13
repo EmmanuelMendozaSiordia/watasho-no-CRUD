@@ -1,0 +1,108 @@
+.BG{
+    background-color: #08AEEA;
+    background-image: linear-gradient(0deg, #08AEEA 0%, #2AF598 100%);
+
+
+}
+.parte_1{
+    
+    /*background-image: linear-gradient(19deg, #21D4FD 0%, #B721FF 100%);*/
+    /*background-image: linear-gradient(to right, #434343 0%, black 100%);*/
+    background-color: white;
+    width: 40%;
+    height:70%;
+    float: left;
+    color:black;
+    text-align: center;
+    margin-top: auto;
+    /*border-style: solid;
+    border-color: transparent;
+    border-width: 3px;*/
+    border-radius: 10px;
+    margin-top: 3%;
+    margin-left: 3%;    
+}
+.parte_2{
+    color: white;
+    text-align: center;
+    float: right;
+    width: 50%;
+    height: 100%;
+    background-image: url("edu.jpg");
+    /*background-image: linear-gradient(to right, #434343 0%, black 100%);*/
+    background-size: cover;    
+}
+.contenedor{
+    margin-top: 20%;
+    margin-bottom: 50%;
+    margin-left: 25%;
+    border-color: white;
+    border-width: 3px ;
+    border-style: solid;
+    border-radius: 10px;
+    text-align: center;
+    width: 50%;
+    height: 60%;
+    
+}
+.texto_contenedor{
+    margin-top: 15%;
+    font-family: "Courier New",'Courier New';
+    font-style: oblique;
+    font-size: 24;
+}
+.texto_contenedor_2{
+    color: white;
+    margin-top: 10%;
+    margin-left: 10%;
+    border-radius: 10px;
+    width: 80%;
+    font-family: "Lucida Brigh";
+    font-style: oblique;
+    font-size: 32;
+}
+.foot{
+    clear: both;
+    width: 100%;
+   
+    background-color: blue;
+}
+.boton{
+    background-color: #21D4FD;
+    background-image: linear-gradient(to right, #4facfe 0%, #00f2fe 100%);
+    border-style: solid;
+    border-color: white;
+    border-radius: 10px;
+    width: 80%;
+    font-family: "Courier New",'Courier New';
+    font-style: oblique;
+    font-size: 24;
+}.boton:hover{
+    color: white;
+    background: #434343;    
+    -webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+    -moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+    box-shadow: 5px 40px -10px rgba(0,0,0,0.57);
+    transition: all 0.4s ease 0s;
+}
+.contusuarios{
+    margin-top: 5%;
+    margin-left: 10%;
+    width: 80%;
+    height: 100%;
+    background-color: white;
+    border-style: solid;
+    border-color: transparent;
+    border-radius: 10px;
+}
+.contedit{
+    margin-top: 5%;
+    margin-left: 25%;
+    width: 50%;
+    height: 80%;
+    background-color: white;
+    border-style: solid;
+    border-color: transparent;
+    border-radius: 10px;
+    text-align: center;
+}
