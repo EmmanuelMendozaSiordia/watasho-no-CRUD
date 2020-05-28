@@ -9,13 +9,14 @@
             <a class="navbar-brand mx-auto">Foro CetiChan</a>
         </nav>
         <div class="contusuarios">
-            <form class="mt-2 ml-2" action="index.php">
+            <form class="mt-3"style="margin-left:5%"action="index.php">
                 <button class="btn btn-success">
                     <img src='add.png' class='img-fluid' alt='Responsive image'>
                     Agregar nuevo
                 </button>
             </form>
-                <div class="table-responsive mt-3" >
+            <div class="mx-auto " style="width: 90%">
+            <div class="table-responsive" >
                     <table class="table table-bordered table-striped">
                         <thead class="thead-dark ">
                             <th >ID</th>
@@ -69,5 +70,7 @@
         </div>
 
         
+            </div>
+            
     </body>
 </html>
